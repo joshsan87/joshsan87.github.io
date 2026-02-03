@@ -1,0 +1,18 @@
+h1 {
+   color: #2357a9;  
+   background-color: lightpink;
+}
+#p1 {
+    color: lightgreen;
+    background-color: black;
+    padding: 20px
+}
+span{
+    font-weight: 700;
+}
+#s1, #s2 {
+    color: #ffd092;
+}
+#s3, #s4{
+    color: red
+}
