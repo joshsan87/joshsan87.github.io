@@ -1,0 +1,39 @@
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: green;
+    font-size: 0px;
+}
+
+.block {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+    border: 10px outset bisque;
+}
+
+.lavendar {
+    background-color: #e9c7ff;
+    border-color: #e9c7ff;
+}
+
+.periwinkle {
+    background-color: #bebbff;
+    border-color: #bebbff;
+}
+
+.red {
+    background-color: red;
+    border-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.purple {
+    background-color: purple;
+    border-color: purple;
+}
