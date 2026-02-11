@@ -1,0 +1,23 @@
+/*
+    Shorthand border-radius can have up to 4 values.
+ 
+    1 Value border-radius: Targets all 4 corners.
+ 
+    2 Vaue border-radius: First value targets top-left and
+    bottom-right. Second value targets top-right and bottom-left.
+ 
+    3 Value border-radius: First value targets top-left. Second value
+    targets top-right and bottom-left. Third value targets
+    bottom-right.
+ 
+    4 Value border-radius: First value targets top-left. Second value
+    targets top-right. Third value targets bottom-right. Fourth value
+    targets bottom-left.
+*/
+ div {
+    border: 2px solid rgb(113, 24, 24);
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: #a1def5;
+    
+}

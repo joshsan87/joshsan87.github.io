@@ -1,0 +1,15 @@
+.post-it {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    padding: 24px;
+    margin: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+.blue {
+    background-color: skyblue;
+}
+.green {
+    background-color: greenyellow;
+}
