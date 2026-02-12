@@ -1,0 +1,84 @@
+#morning {
+    background-color: papayawhip;
+    padding: 25px;
+    border-bottom: 2px solid #ffba19;
+    margin-bottom: 50px;
+}
+#morning .completed {
+    text-decoration: line-through;
+}
+#morning .important {
+    font-weight: bold;
+    color: red;
+}
+#morning .completed.important {
+    background-color: rgb(78, 46, 5);
+}
+#morning li {
+    padding: 10px;
+}
+
+#morning .button {
+    display: inline-block;
+    background-color: lightblue;
+    color: #111;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+#afternoon {
+    background-color: rgb(109, 170, 255);
+    padding: 25px;
+    border-bottom: 2px solid #75ff19;
+    margin-bottom: 50px;
+}
+#afternoon .completed {
+    text-decoration: line-through;
+}
+#afternoon .important {
+    font-weight: bold;
+    color: rgb(231, 247, 59);
+}
+#afternoon .completed.important {
+    background-color: rgb(55, 228, 144);
+}
+#afternoon li {
+    padding: 10px;
+}
+
+#afternoon .button {
+    display: inline-block;
+    background-color: rgb(255, 252, 72);
+    color: #111;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+#evening {
+    background-color: rgb(255, 138, 109);
+    padding: 25px;
+    border-bottom: 2px solid #75ff19;
+    margin-bottom: 50px;
+}
+#evening .completed {
+    text-decoration: line-through;
+}
+#evening .important {
+    font-weight: bold;
+    color: rgb(234, 67, 16);
+}
+#evening .completed.important {
+    background-color: rgb(250, 238, 20);
+}
+#evening li {
+    padding: 10px;
+}
+
+#evening .button {
+    display: inline-block;
+    background-color: rgb(199, 139, 56);
+    color: #111;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
