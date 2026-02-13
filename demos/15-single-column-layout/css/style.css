@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.single-column {
+    width:50%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.light-container {
+    background-color: lightgreen;
+    padding: 48px 0px;
+}
+
+.dark-container {
+    background-color: darkgreen;
+    color: white;
+    padding: 48px 0px;
+}
