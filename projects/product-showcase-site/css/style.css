@@ -9,6 +9,7 @@ body {
 img {
     width: 100%;
     object-fit: cover;
+    padding: 15px;
 }
 .contain {
     width: 100%;
