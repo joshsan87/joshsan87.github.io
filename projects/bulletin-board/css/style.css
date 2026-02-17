@@ -13,3 +13,11 @@
 .green {
     background-color: greenyellow;
 }
+.red {
+    background-color: red;
+    height: 275px;
+}
+#p2 {
+    text-align: center;
+    color: whitesmoke;
+}
