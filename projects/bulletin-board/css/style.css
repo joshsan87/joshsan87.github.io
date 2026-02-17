@@ -17,7 +17,24 @@
     background-color: red;
     height: 275px;
 }
+#p1 {
+    text-align: center;
+}
 #p2 {
     text-align: center;
     color: whitesmoke;
+}
+h2 {
+    text-align: center;
+}
+.black {
+    background-color: black;
+}
+#p3 {
+    color: white;
+    text-align: center;
+}
+.purple {
+    background-color: purple;
+    color: white;
 }
