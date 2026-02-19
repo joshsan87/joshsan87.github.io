@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    margin: 0px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.sbs {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.sbs .content {
+    flex: 1;
+}
+.sbs .image-container {
+    flex: 2;
+;
+}
