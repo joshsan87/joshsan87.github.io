@@ -1,8 +1,8 @@
 * {
+    padding: 0px;
     box-sizing: border-box;
 }
 body {
-    margin: 0px;
     font-family: sans-serif;
 }
 .single-column {
@@ -11,34 +11,34 @@ body {
     max-width: 1200px;
 }
 img {
-    width: 80%;
-    height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
 .sbs {
     display: flex;
-    gap: 50px;
-    margin-top: 30px;
-    margin-bottom: 80px;
-}
-.sbs .content {
-    flex: 1;
-}
-.sbs .image-container {
-    flex: 2;
-}
-.btn {
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px 30px;
-    display: inline-block;
-    text-decoration: none;
+    gap: 25px;
+    padding: 50px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
-.card img {
-    width: 100%;
-    height: 300px;
+.sbs img {
+    height: 100%;
+}
+
+.stack {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
 }
