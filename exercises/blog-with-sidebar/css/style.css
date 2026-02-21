@@ -28,20 +28,21 @@ h3 {
 }
 
 .sidebar h2 {
-    background-color: #ffbf00;
+    background-color: black;
+    color: white;
     margin: 0px;
     padding: 15px;
     font-size: 18px;
 }
 .sidebar ul {
-    background-color: #fff7de;
-    border: 1px solid #ffbf00;
+    background-color: rgb(144, 224, 238);
+    border: 1px solid #000000;
     margin: 0px 0px 25px;
     list-style: none;
 }
 .sidebar li {
     padding: 10px 0px;
-    border-bottom: 1px solid #ffbf00;
+    border-bottom: 1px solid black;
 }
 .sidebar li:last-child {
     border: 0px;
@@ -54,12 +55,14 @@ h3 {
 .main {
     order: 1;
     flex: 1;
-    margin: 0px 50px;
+    margin: 0px 2px;
 }
 .dark-container {
     background-color: rgb(0, 0, 0);
     color: white;
+    padding: 30px;
 }
 .light-container {
     background-color: rgb(144, 224, 238);
+    padding: 30px;
 }
