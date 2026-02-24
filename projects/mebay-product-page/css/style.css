@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.single-column {
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+header {
+    background-color: #002ba0;
+    padding: 15px;
+}
+
+header nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;  
+}
+nav a:hover {
+    background-color: transparent;
+    color: #58d3fc;
+}
+.logo {
+    padding: 5px;
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: solid;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+}
+main.sc {
+    display: flex;
+    gap: 50px;
+    padding: 40px 0px;
+}
+main #c1 {
+    width: 250px;
+}
+.ic img {
+    height: 100%;
+}
+a {
+    font-size: 10pt;
+    color: black;
+     transition: background-color 0.5s, color 0.5s;
+}
+a:hover {
+    background-color: transparent;
+    color: grey;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: white;
+    color: rgb(78, 78, 230);
+}
+.btn.alt {
+    background-color: rgb(74, 74, 238);
+    border: rgb(78, 78, 230);
+    color: white;
+}
