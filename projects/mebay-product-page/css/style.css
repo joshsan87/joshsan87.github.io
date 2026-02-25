@@ -58,7 +58,7 @@ main #c1 {
 a {
     font-size: 10pt;
     color: black;
-     transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.5s, color 0.5s;
 }
 a:hover {
     background-color: transparent;
