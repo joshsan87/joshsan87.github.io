@@ -66,13 +66,25 @@ a:hover {
 }
 .btn {
     display: inline-block;
+    display: grid;
     text-decoration: none;
     padding: 15px 30px;
-    background-color: white;
+    background-color: rgb(255, 224, 224);
+    color: rgb(78, 78, 230);
+    border-radius: 50px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
+.btn:hover {
+    background-color: rgb(186, 156, 156);
     color: rgb(78, 78, 230);
 }
 .btn.alt {
     background-color: rgb(74, 74, 238);
     border: rgb(78, 78, 230);
     color: white;
+}
+.btn.alt:hover {
+    background-color: rgb(57, 57, 170);
 }
